@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cognitive-swarm-core"
+version = "0.1.0"
+authors = [
+  { name = "Armonia Push" }
+]
+description = "Domain-agnostic cognitive swarm core for lateral inference, RFC 6902 state tracking, and deterministic graph retrieval."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "networkx>=3.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/armoniapush/cognitive-swarm-core"
+"Bug Tracker" = "https://github.com/armoniapush/cognitive-swarm-core/issues"
