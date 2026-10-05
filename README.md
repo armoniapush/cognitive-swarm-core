@@ -200,4 +200,4 @@ While originally born as an engine for hard worldbuilding and ontological consis
 
 ## License
 
-MIT License. Copyright (c) 2026 Armonia Push.
+MIT License. Copyright (c) 2026 Daniel Dobles.
